@@ -129,7 +129,7 @@
 <main>
   <form on:submit|preventDefault={onSubmit}>
     <label>
-      alphavantageAPIのトークンを貼り付けてください。
+      alphavantageAPIのAPIキーを貼り付けてください。
       <input type="text" id="token" bind:value={alphavantageApiKey} />
     </label>
     <label>
